@@ -1,0 +1,4 @@
+# MySeekBar
+双向滑动的SeekBar
+一个自定义的双向滑动SeekBar
+提供了回调接口获取两头的进度值
