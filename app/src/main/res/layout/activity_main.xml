@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.gjl.myseekbar.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/tv_low"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:paddingLeft="30dp"
+            android:text="0"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/tv_high"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="30dp"
+            android:text="100"
+            android:textColor="@android:color/black" />
+    </RelativeLayout>
+
+    <com.gjl.myseekbar.DoubleSeekBar
+        android:id="@+id/dsb"
+        android:layout_width="300dp"
+        android:layout_height="50dp"/>
+</LinearLayout>
